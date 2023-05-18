@@ -19,6 +19,9 @@ header, footer{
     display: flex;
     flex-direction: row;
     margin: auto;
+}
+
+.hero-container{
     padding: 50px;
 }
 
@@ -102,7 +105,59 @@ span{
     margin-top: 20px;
 }
 
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
 
+.card-1{
+    display: flex;
+    background-color: #bfab25;
+    margin: 30px 0px;
+}
+
+.card-title{
+    color: #fff;
+}
+
+.card-image-1{
+    width: 40%;
+}
+
+.card-image-1 img{
+    width: 100%;
+    min-height: 100%;
+}
+
+.card-text-1{
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+}
+
+.card-2{
+    display: flex;
+    background-color: #929292;
+    margin: 30px 0px;
+}
+
+.card-image-2{
+    width: 40%;
+    order: 2;
+}
+
+.card-image-2 img{
+    width: 100%;
+    min-height: 100%;
+}
+
+.card-text-2{
+    width: 60%;
+    padding: 40px;
+    margin: auto;
+}
 
 footer{
     padding: 0 20px;
