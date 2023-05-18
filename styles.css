@@ -79,6 +79,31 @@ span{
     color: whitesmoke;
 }
 
+.quote q{
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 1.5em;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #2b2d42;
+    color: #edf2f4;
+    padding: 0 500px;
+}
+
+.quote-img{
+    max-width: 150px;
+    margin-top: 20px;
+}
+
+
+
 footer{
     padding: 0 20px;
 }
@@ -86,6 +111,10 @@ footer{
 .footer-container{
     display: flex;
     justify-content: space-between;
+}
+
+.copyright{
+    max-width: 1200px;
 }
 
 .icons-auth-copyright{
