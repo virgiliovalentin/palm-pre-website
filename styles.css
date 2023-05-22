@@ -11,8 +11,49 @@ header, footer{
     margin: 20px;
 }
 
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.navbar-links{
+    display: flex;
+    width: 30%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.navbar-links a:hover{
+    text-decoration: none;
+    background-color: #fd5300;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.navbar-links a:active{
+    text-decoration: none;
+    color: #fd5300;
+}
+
 .logo{
     width: 325px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
 }
 
 .container{
